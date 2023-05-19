@@ -1,0 +1,137 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f6b73657-9d75-4843-8bea-bd4600fe883e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text ".tran 1u 10m 0 uic\n" (at 122.174 43.434 0)
+    (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    (uuid 2d0170d3-af91-4ab4-ada4-9fd96a6a08f8)
+  )
+  (text "Xilinx FPGA Development Board" (at 30.48 31.75 0)
+    (effects (font (size 10.16 10.16) (thickness 2.54) bold) (justify left bottom))
+    (uuid ddba8772-60b6-4bfb-b86f-db5ab9dc013d)
+  )
+
+  (sheet (at 25.4 50.8) (size 31.75 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1dfea1a2-3b2e-4fc9-aa42-b125d94b9b1b)
+    (property "Sheetname" "Overview" (at 25.4 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "overview.kicad_sch" (at 25.4 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 25.4 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 160.02 50.8) (size 31.75 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b28a495-dbe2-4bc3-9177-7e17fcef468f)
+    (property "Sheetname" "USB Interface" (at 160.02 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_interface.kicad_sch" (at 160.02 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 127 50.8) (size 31.75 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3f02c9e7-0d2c-491c-bf09-8e1e004875df)
+    (property "Sheetname" "LEDs, Buttons and Switches" (at 127 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED_Button_Switches.kicad_sch" (at 127 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 127 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 59.69 50.8) (size 31.75 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8683e395-e12a-455e-92cc-3b025ce2d521)
+    (property "Sheetname" "FPGA & Misc" (at 59.69 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "fpgaSpartan.kicad_sch" (at 59.69 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 50.8) (size 31.75 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97b1f4b6-f0d1-49ea-9c48-12d1bc238deb)
+    (property "Sheetname" "VGA Connector" (at 93.98 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "vga.kicad_sch" (at 93.98 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 93.98 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 193.04 50.8) (size 34.925 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b5bd940d-0639-4aa2-a148-a3ae35c65ee8)
+    (property "Sheetname" "Headers and Sockets" (at 193.04 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Headers&Sockets.kicad_sch" (at 193.04 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 193.04 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "XilinxFPGADevelopmentBoard"
+        (path "/f6b73657-9d75-4843-8bea-bd4600fe883e" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
