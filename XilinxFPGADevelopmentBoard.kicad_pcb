@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/manufacturing")
+      (outputdirectory "C:/Users/CTS/Documents/KiCad/7.0/projects/XilinxFPGADevelopmentBoard/manufacturing")
     )
   )
 
@@ -6511,6 +6511,9 @@
   )
   (gr_text "1" (at 73.3 138.3) (layer "F.SilkS") (tstamp 14a31741-49b2-4edb-b1ce-2362eae2b729)
     (effects (font (size 3 3) (thickness 0.3)) (justify left bottom))
+  )
+  (gr_text "By \nOriod Malo" (at 93.225 95.725) (layer "F.SilkS") (tstamp 153b70bd-85b1-4c01-b03c-8d6247add655)
+    (effects (font (size 3 3) (thickness 0.4) italic) (justify left bottom))
   )
   (gr_text "+3.3V" (at 73.8 86.35) (layer "F.SilkS") (tstamp 158c785f-b074-4265-a6b3-210ef6edeca6)
     (effects (font (size 1.1 1.1) (thickness 0.16)) (justify left bottom))
