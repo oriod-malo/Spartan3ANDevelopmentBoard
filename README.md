@@ -19,8 +19,8 @@ Note that the PIC32M250F128D requires adequate programming to function as the Ma
 * All other pins connected with headers or sockets
 
 ## Images
-![Xilinx FPGA Board 3D](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/d9ae569c-033e-494b-a9dc-50b05f045247)
-![Xilinx FPGA Board Layers](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/37dbb27f-8ce7-49b2-bda9-1af76e4ed00b)
+![Xilinx FPGA Board 3D](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/178b9be3-841d-404c-bffe-68f615273363)
+![Xilinx FPGA Board Layers](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/158e7197-0f1f-4a05-829b-cde3727b1826)
 ![Xilinx FPGA Board Layer 1](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/6d229f95-805d-49ae-95a6-f16913d517ce)
 ![Xilinx FPGA Board Layer 2](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/88bccd16-53e1-4860-a91e-acb4308a7bc2)
 ![Xilinx FPGA Board Layer 3](https://github.com/oriod-malo/Spartan3ANDevelopmentBoard/assets/123891760/d6ce42ff-256c-4638-8acf-daff1bac83ad)
